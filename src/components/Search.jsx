@@ -50,15 +50,9 @@ function Search() {
   }
 
   return (
-    <div className="card-body">
+    <div className="recipe-list search-recipe-container">
       {data.map((sin) => (
-        <Card
-          key={sin.id}
-          image={sin.image}
-          title={sin.title}
-          summary={sin.summary}
-          id={sin.id}
-        />
+        <Card key={sin.id} result={sin} />
       ))}
     </div>
   );

@@ -76,6 +76,10 @@
     font-weight: bold;
 }
 
+.search-recipe-container {
+    padding: 30px 40px;
+}
+
 @media (min-width: 600px) {
     .recipe-list {
         grid-template-columns: repeat(2, 1fr);
