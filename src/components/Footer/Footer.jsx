@@ -34,7 +34,7 @@ const Footer = () => {
       });
   }, []);
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div
         className="footer-content"
         ref={(el) => (sectionsRef.current[0] = el)}

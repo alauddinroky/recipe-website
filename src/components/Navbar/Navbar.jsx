@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="/about"
+              to="/aboutus"
               className="nav-links"
               onClick={() => setIsOpen(false)}
             >
@@ -45,7 +46,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link
-              to="/contact"
+              to="/contactus"
               className="nav-links"
               onClick={() => setIsOpen(false)}
             >

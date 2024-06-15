@@ -13,7 +13,7 @@ function SearchInput() {
         onBlur={() => setIsFocused(false)}
         className="input-field"
       />
-      <NavLink to={`search/${value}`}>
+      <NavLink to={`/search/${value}`}>
         <button type="submit" className={isFocused ? "focused" : ""}>
           Search
         </button>
