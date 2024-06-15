@@ -36,18 +36,6 @@ function Home() {
 
   return (
     <>
-      {/* <div className="search">
-        <input
-          type="text"
-          placeholder="Search for a recipe"
-          onChange={(e) => setValue(e.target.value)}
-          className="input-field"
-        />
-        <NavLink to={`search/${value}`}>
-          <button type="submit">Search</button>
-        </NavLink>
-      </div> */}
-      {/* <SearchInput /> */}
       {data ? (
         data.map((sin) => {
           // <li>{d.title}</li>;
@@ -65,7 +53,7 @@ function Home() {
           <Popular />
           {/* <RecipeScroller /> */}
           <AboutUs />
-          <Veggie />
+          {/* <Veggie /> */}
         </>
       )}
     </>
